@@ -82,7 +82,7 @@ function calculateTotalPrice(items) {
   // TODO: use `reduce`
   totalP = items.reduce((acc, item) => {
     return acc += item.price
-  });
+  },0);
   return totalP;
 }
 
